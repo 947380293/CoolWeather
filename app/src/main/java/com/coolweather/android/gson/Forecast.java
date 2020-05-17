@@ -4,16 +4,16 @@ import com.google.gson.annotations.SerializedName;
 
 public class Forecast {
 
-    public String date;//预报日期
+    public String date;
     @SerializedName("tmp")
     public Temperature temperature;
     @SerializedName("cond")
     public More more;
     public class Temperature{
 
-        public String max;//最高温度
+        public String max;
 
-        public String min;//最低温度
+        public String min;
 
     }
     public class More{
